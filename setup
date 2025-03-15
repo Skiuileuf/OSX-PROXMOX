@@ -104,11 +104,12 @@ then
 
 	touch /etc/pve/qemu-server/.osx-proxmox
 
-	update-grub >> ${LOGFILE} 2>> ${LOGFILE}
+	# update-grub >> ${LOGFILE} 2>> ${LOGFILE}
 
 	echo " "
 	echo " "
-	echo "... Successfully completed prerequisite process, your HOST will restart within 15s."
+	# echo "... Successfully completed prerequisite process, your HOST will restart within 15s."
+	echo "Successfully completed prerequisite process. Run this program again to create the VM."
 	echo " "
 	# echo "After rebooting, RUN: osx-setup"
 	echo " "
